@@ -11,6 +11,11 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
+  border: 3px solid #fff000;
+}
+a{
+  text-decoration: none;
+  color: #fff;
 }
 
 ul.menu{
