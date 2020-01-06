@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import PostItem from './PostItem';
+
 
 /**
  * Responsável por armazenar os dados da listagem de post,
@@ -8,7 +10,8 @@ import Header from './Header';
  */
 class PostList extends Component{
  state = {
-   posts: {
+   posts: [
+     {
      id: 1,
      author: {
        name: 'Julius Alcântara',
@@ -33,24 +36,18 @@ class PostList extends Component{
         },
         content: 'Verdade, concordo.',
        },
-     ]
-   }
- };
+      ],
+    },
+  ],
+};
 
  render(){
    return(
+  
+     <div className="post-body">
 
-    /**
-     * <Header />
-     */
-
-    <div className="post-body">
-      <div className="post-user">
-        <img src={this.state.author.avatar} />
+    {this.state.posts.map(post => <PostItem key={post.id} data={post} /> ) }
       </div>
-
-    </div>
-
    );
  }
 
