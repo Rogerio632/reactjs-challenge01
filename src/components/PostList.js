@@ -52,7 +52,7 @@ class PostList extends Component{
             name: 'Perigo',
             avatar: 'https://bit.ly/37qoRUT',
           },
-          content: 'Concordo com você. Adoraria uma oportunidade nesse novo conglomerado da T.I'
+          content: 'Concordo com você. Adoraria uma oportunidade nesse nova empresa de T.I'
         },
         {
          id: 2,

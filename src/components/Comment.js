@@ -6,8 +6,7 @@ function Comment({ data }){
 
    <div class="comment">
 
-  <div className="user-stats">
-       <div className="user-info">
+       <div className="user-info user-stats">
         <img src={data.author.avatar} className="user-avatar" />
 
         <span className="user-comment">
@@ -20,14 +19,6 @@ function Comment({ data }){
       </div>
 
       </div>
-      
-    
-  </div>
-
-{/*      
-   { data.author.name }
-   { data.author.avatar }
-   { data.content } */}
    </div>
 
 /**
