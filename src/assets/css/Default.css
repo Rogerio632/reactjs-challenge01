@@ -27,6 +27,7 @@ nav#primary-nav{
   background-color: #4267b2;
   position: absolute;
   top: 0;
+  left: 0;
 }
 a{
   text-decoration: none;
@@ -60,14 +61,14 @@ div.post:first-child{
 
 div.post{
   width:700px;
-  min-height: 60%;
+  min-height: 50%;
   background-color: #fff;
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 40px;
   max-width: 100%;
   max-height: 100%;
-  box-shadow: 1px 1px 10px #000;
+  box-shadow: 1px 1px 10px #a99b9b;
   color: #3E3E3E;
 }
 div.user-stats *{
@@ -75,6 +76,7 @@ div.user-stats *{
 }
 div.user-stats{
   margin-left: 15px;
+  padding-bottom: 15px;
 }
 div.user-mashup{
   display: flex;
@@ -138,12 +140,12 @@ span.user-comment {
   border-radius: 10px;
   max-height: 100%;
   padding: 10px 15px 0px 10px;
-  max-width: 90%;
+  max-width: 75%;
   width: fit-content;
   margin-left: 5px;
 }
 .comment-content{
-
+  line-height: 25px;
 }
 
 
