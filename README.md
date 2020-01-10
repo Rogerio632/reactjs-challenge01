@@ -19,7 +19,7 @@ Just run, in terminal:
 - yarn 
 - yarn dev
 
-After, go in the browser in search for *localhost:8080*
+After, go in the browser and search for *localhost:8080*
 That's what will appears:
 
 <a href="https://imgur.com/4ODgwJf"><img src="https://i.imgur.com/4ODgwJf.png?1" title="source: imgur.com" /></a>
