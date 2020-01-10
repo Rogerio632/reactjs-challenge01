@@ -6,8 +6,8 @@ Desafio do quarto módulo, com ReactJS, do Bootcamp Gostack 9.0.
 
 Digite, dentro da pasta, em um terminal:
 
-> yarn
-> yarn dev
+- yarn
+- yarn dev
 
 Depois, vá no navegador e busque por *localhost:8080*
 
@@ -16,8 +16,8 @@ Challenge of the fourth module, with ReactJS, of the Bootcamp GoStack.
 
 Just run, in terminal:
 
-> yarn 
-> yarn dev
+- yarn 
+- yarn dev
 
 After, go in the browser in search for *localhost:8080*
 That's what will appears:
